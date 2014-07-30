@@ -1,0 +1,49 @@
+triph-blue      = #64c2ce
+triph-blue-dark = #0095A0
+triph-green     = #4f8945
+
+body
+  margin: 0
+  font-family: Verdana, "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  background-image: url('top_bg.jpg')
+  background-position: center 180px
+  background-repeat: no-repeat
+  -moz-background-size: cover
+  background-size: cover
+  .row
+    max-width: 100%
+  .logo
+    text-align: center
+    width: 220px
+    margin: 40px auto 0
+
+  .txt_description
+    text-align: center
+    color: triph-blue-dark
+    margin: 10px 0 0
+
+  .txt_app_store
+    margin: 20px auto 20px
+    text-align: center
+
+  .social_buttons
+    text-align: center
+    ul
+      padding: 0
+      margin: auto
+      list-style-type: none
+      li
+        margin-right: 10px
+        display: inline-block
+        overflow-x: hidden
+        &.facebook_like_button
+          width: 100px
+        &.twitter_share_button
+          width: 100px
+
+@media screen and (max-width: 1000px)
+  body
+    background-position: center 100%
+    -moz-background-size: 100% auto
+    background-size: 100% auto
+    -webkit-text-size-adjust: 100%
