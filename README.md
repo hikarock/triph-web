@@ -3,7 +3,7 @@
 ## Setup 
 
 1. meteorをインストール 
-  * `https://www.meteor.com/` 
+  * `curl https://install.meteor.com | /bin/sh`
 1. meteorでアカウントを作成
   * https://www.meteor.com/
 1. 対象者にデプロイ権限を付与
