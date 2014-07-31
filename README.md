@@ -1,16 +1,16 @@
 ![triph](https://raw.githubusercontent.com/hikarock/triph-web/master/public/logo.png)
 
-## Setup 
+## Setup
 
-1. meteorをインストール 
+1. meteorをインストール
   * `curl https://install.meteor.com | /bin/sh`
 1. meteorでアカウントを作成
   * https://www.meteor.com/
 1. 管理者が対象者にデプロイ権限を付与
- * `meteor authorized www.triph.jp --add #{account_name}`
+  * `meteor authorized triph.jp --add #{account_name}`
 
 ## Deploy
 
 ```sh
-$ meteor deploy www.triph.jp
+$ meteor deploy triph.jp
 ```
