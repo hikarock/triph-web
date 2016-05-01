@@ -1,0 +1,25 @@
+{
+  "name": "triph-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hikarock/triph-web.git"
+  },
+  "author": "hikarock <i@hika69.com> (https://hika69.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hikarock/triph-web/issues"
+  },
+  "homepage": "https://github.com/hikarock/triph-web#readme",
+  "devDependencies": {
+    "browser-sync": "^2.10.0",
+    "gulp": "^3.9.0",
+    "gulp-stylus": "^2.3.1",
+    "nib": "^1.1.0"
+  }
+}

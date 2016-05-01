@@ -2,15 +2,14 @@
 
 ## Setup
 
-1. meteorをインストール
-  * `curl https://install.meteor.com | /bin/sh`
-1. meteorでアカウントを作成
-  * https://www.meteor.com/
-1. 管理者が対象者にデプロイ権限を付与
-  * `meteor authorized triph.jp --add #{account_name}`
+```sh
+$ npm install
+$ npm start
+```
 
 ## Deploy
 
 ```sh
-$ meteor deploy triph.jp
+$ ./deploy.sh
 ```
+
